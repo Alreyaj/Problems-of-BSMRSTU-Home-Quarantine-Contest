@@ -70,8 +70,6 @@ int main()
 		cin >> n >> d;
 		ll a = cal((n + 1) / 2, 1, d);
 		ll b = cal(n / 2, d - 1, d);
-		cout << a <<" " << b << endl;
-		//cout << a - b << endl;
 		if(a >= b) cout << a - b << endl;
 		else cout << "-" << b - a << endl;
 	}
