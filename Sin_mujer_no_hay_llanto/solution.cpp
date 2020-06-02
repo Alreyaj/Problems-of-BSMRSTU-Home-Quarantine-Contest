@@ -63,27 +63,6 @@ ll cal(ll n, ll a, ll d)
 
 int main()
 {
-	#ifndef ONLINE_JUDGE
-    //freopen("i3.txt", "r", stdin);
-    //freopen("o3.txt", "w", stdout);
-	#endif
-	// ll n, d;
-	// cin >> d;
-	// ll l = 1, r = 2000000000;
-	// while(l <= r)
-	// {
-	// 	ll md = (l + r) / 2;
-	// 	ll a = cal((md + 1) / 2, 1, d);
-	// 	ll b = cal(md / 2, d - 1, d);
-	// 	if(a > b) swap(a, b);
-	// 	if(a < 0 && b > 0)
-	// 	{
-	// 		cout << md << endl;
-	// 		break;
-	// 	}
-	// 	if(a > 0) l = md + 1;
-	// 	else if(b < 0) r = md - 1;
-	// }
 	int t = INT;
 	while(t--)
 	{
